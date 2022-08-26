@@ -21,4 +21,8 @@ body {
   justify-content: center;
 
   background-color: var(--bg-color);
+
+  @media screen and (max-width: 43.75em) {
+    height: 100%;
+  }
 }

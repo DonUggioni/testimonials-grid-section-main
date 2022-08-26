@@ -20,6 +20,11 @@ body {
   justify-content: center;
   background-color: var(--bg-color);
 }
+@media screen and (max-width: 43.75em) {
+  body {
+    height: 100%;
+  }
+}
 
 :root {
   --bg-color: rgba(236, 242, 248, 1);
@@ -112,6 +117,11 @@ body {
   position: absolute;
   top: 0;
   right: 8rem;
+}
+@media screen and (max-width: 32.5em) {
+  .testimonials .daniel .quotation__img {
+    right: 2.4rem;
+  }
 }
 .testimonials .daniel__img {
   border: 2px solid var(--color-purple-2);
